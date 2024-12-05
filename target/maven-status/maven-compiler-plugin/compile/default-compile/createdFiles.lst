@@ -1,0 +1,8 @@
+net\rainbowfurry\PhoenixAPI\Phoenix_MC_API.class
+net\rainbowfurry\PhoenixAPI\ColorUtils.class
+net\rainbowfurry\PhoenixAPI\TextFormatBuilder.class
+net\rainbowfurry\PhoenixAPI\ItemBuilder.class
+net\rainbowfurry\PhoenixAPI\CustomColor.class
+net\rainbowfurry\PhoenixAPI\ChatGradient.class
+net\rainbowfurry\PhoenixAPI\InventoryBuilder.class
+net\rainbowfurry\PhoenixAPI\ScoreboardBuilder.class

@@ -1,0 +1,8 @@
+name: RF_MinecraftAPI
+version: '1.0'
+main: net.rainbowfurry.PhoenixAPI.Phoenix_MC_API
+api-version: '1.21'
+prefix: RF_Essentials
+authors: [ RainbowFurry ]
+description: All Essentials Commands you need
+website: https://www.rainbowfurry.com
