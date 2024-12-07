@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/PhoenixAPI.iml" filepath="$PROJECT_DIR$/PhoenixAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/Phoenix_MC_API.iml" filepath="$PROJECT_DIR$/Phoenix_MC_API.iml" />
     </modules>
   </component>
