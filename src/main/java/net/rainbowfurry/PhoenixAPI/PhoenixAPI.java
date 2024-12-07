@@ -2,7 +2,7 @@ package net.rainbowfurry.PhoenixAPI;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class Phoenix_MC_API extends JavaPlugin {
+public final class PhoenixAPI extends JavaPlugin {
 
     @Override
     public void onEnable() {

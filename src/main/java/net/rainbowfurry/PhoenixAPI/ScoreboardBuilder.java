@@ -10,6 +10,7 @@ public class ScoreboardBuilder {
     private Scoreboard scoreboard;
     private Objective objective;
 
+    //ToDo: Name mit speichern? falls ja aber nicht multiscore möglich außer seperater aufruf
     public ScoreboardBuilder createScoreBoard(String name, String displayName){
         assert manager != null;
         scoreboard = manager.getNewScoreboard();
@@ -25,6 +26,16 @@ public class ScoreboardBuilder {
 
     public ScoreboardBuilder addObject(String content, int index){
         objective.getScore(content).setScore(index);
+        return this;
+    }
+
+    int placeholderIndex = 1;
+    public ScoreboardBuilder addPlaceholder(int index){
+        String placeholder = "";
+        for(int i = 0; i < placeholderIndex; i++)
+            placeholder = placeholder + " ";
+        objective.getScore(placeholder).setScore(index);
+        placeholderIndex++;
         return this;
     }
 

@@ -1,6 +1,6 @@
 name: RF_MinecraftAPI
 version: '1.0'
-main: net.rainbowfurry.PhoenixAPI.Phoenix_MC_API
+main: net.rainbowfurry.PhoenixAPI.PhoenixAPI
 api-version: '1.21'
 prefix: RF_Essentials
 authors: [ RainbowFurry ]

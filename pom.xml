@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>net.rainbowfurry.Phoenix_MC_API</groupId>
-    <artifactId>Phoenix_MC_API</artifactId>
+    <groupId>net.rainbowfurry.PhoenixAPI</groupId>
+    <artifactId>PhoenixAPI</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
-    <name>Phoenix_MC_API</name>
+    <name>PhoenixAPI</name>
 
     <properties>
         <java.version>21</java.version>

@@ -15,7 +15,7 @@ public class ItemBuilder {
     }
 
     public void setName(String name){
-        itemMeta.setDisplayName(TextFormatBuilder.FormatText(name));
+        itemMeta.setDisplayName(TextFormatation.defaultColor(name));
     }
 
     public void setMaterial(Material material){
