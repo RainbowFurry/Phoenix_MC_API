@@ -1,7 +1,9 @@
-net\rainbowfurry\PhoenixAPI\TextFormatation.class
-net\rainbowfurry\PhoenixAPI\ColorUtils.class
+net\rainbowfurry\PhoenixAPI\text\ChatGradient.class
+net\rainbowfurry\PhoenixAPI\builder\ScoreboardBuilder.class
+net\rainbowfurry\PhoenixAPI\builder\InventoryBuilder.class
 net\rainbowfurry\PhoenixAPI\PhoenixAPI.class
-net\rainbowfurry\PhoenixAPI\ItemBuilder.class
-net\rainbowfurry\PhoenixAPI\ChatGradient.class
-net\rainbowfurry\PhoenixAPI\InventoryBuilder.class
-net\rainbowfurry\PhoenixAPI\ScoreboardBuilder.class
+net\rainbowfurry\PhoenixAPI\text\TextFormatation.class
+net\rainbowfurry\PhoenixAPI\builder\ItemBuilder.class
+net\rainbowfurry\PhoenixAPI\manager\ConfigManager.class
+net\rainbowfurry\PhoenixAPI\text\ColorUtils.class
+net\rainbowfurry\PhoenixAPI\manager\LanguageManager.class

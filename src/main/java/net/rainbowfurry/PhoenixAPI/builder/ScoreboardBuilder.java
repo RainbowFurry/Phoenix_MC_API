@@ -1,4 +1,4 @@
-package net.rainbowfurry.PhoenixAPI;
+package net.rainbowfurry.PhoenixAPI.builder;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;

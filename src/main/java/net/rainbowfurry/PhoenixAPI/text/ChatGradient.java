@@ -1,4 +1,4 @@
-package net.rainbowfurry.PhoenixAPI;
+package net.rainbowfurry.PhoenixAPI.text;
 
 import net.md_5.bungee.api.ChatColor;
 

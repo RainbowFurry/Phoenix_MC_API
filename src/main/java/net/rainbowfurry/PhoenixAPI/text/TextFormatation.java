@@ -1,4 +1,4 @@
-package net.rainbowfurry.PhoenixAPI;
+package net.rainbowfurry.PhoenixAPI.text;
 
 import net.md_5.bungee.api.ChatColor;
 
@@ -38,7 +38,7 @@ public class TextFormatation {
         if(message.contains("<#")) {
             for (String text : message.split("<#")) {
                 if (text.contains(">")) {
-                    System.out.println("<#" + text);
+                    //System.out.println("<#" + text);
                     //String regex = "<(#[^>]+)>(.*?)</\\1>";
                     String regex = "<(#[^>]+)>(.*?)</(#[^>]+)>";
 
