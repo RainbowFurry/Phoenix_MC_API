@@ -1,4 +1,8 @@
+Rename Project from RF_ tp Phoenix
+Extend FileManager - autoload Files with given Categorys to create Content Ingame.
+
+
 Config File Manager, Language Manager
 DB Manager
 
-Location / WORLD /
+Manager: Location / WORLD /

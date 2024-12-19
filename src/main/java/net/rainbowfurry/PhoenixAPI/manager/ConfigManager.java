@@ -14,7 +14,7 @@ public class ConfigManager {
 
     private final String fileName;
     private final File configFile;
-    private FileConfiguration config;
+    private YamlConfiguration config;//FileConifguration
     private JavaPlugin plugin;
 
     public ConfigManager(String fileName, JavaPlugin plugin) {

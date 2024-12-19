@@ -19,6 +19,11 @@ public class InventoryBuilder {
         return this;
     }
 
+    public InventoryBuilder setInventory(Inventory inventory) {
+        this.inventory = inventory;
+        return this;
+    }
+
     public InventoryBuilder setPlaceHolder(ItemStack item){
         for(int position = 0; position < inventory.getSize(); position++){
             inventory.setItem(position, item);
