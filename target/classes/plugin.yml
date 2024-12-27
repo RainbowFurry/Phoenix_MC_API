@@ -1,4 +1,4 @@
-name: RF_MinecraftAPI
+name: Phoenix_MinecraftAPI
 version: '1.0'
 main: net.rainbowfurry.PhoenixAPI.PhoenixAPI
 api-version: '1.21'
