@@ -10,6 +10,8 @@ import org.bukkit.persistence.PersistentDataType;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.lang.annotation.Documented;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ItemBuilder {
 
@@ -17,19 +19,29 @@ public class ItemBuilder {
 
     private ItemStack itemStack;
     private ItemMeta itemMeta;
+    private List<String> itemLore;
 
-    /// Init new ItemBuilder
+    /**
+     * Init new blank ItemBuilder
+     * To create an Item from blank
+     */
     public ItemBuilder(){
 
     }
 
-    /// Init new ItemBuilder with given Material
+    /**
+     * Init ItemBuilder with Material
+     * @param material Material
+     */
     public ItemBuilder(Material material){
         itemStack = new ItemStack(material);
         itemMeta = itemStack.getItemMeta();
     }
 
-    /// Init new ItemBuilder with given ItemStack
+    /**
+     * Init ItemBuilder with ItemStack
+     * @param itemStack ItemStack
+     */
     public ItemBuilder(ItemStack itemStack){
         this.itemStack = itemStack;
         itemMeta = itemStack.getItemMeta();
@@ -56,20 +68,67 @@ public class ItemBuilder {
         return this;
     }
 
-    /// Set the Material of the ItemStack
+    /**
+     * Set the Material for the ItemStack
+     * @param material Material
+     * @return base Class
+     */
     public ItemBuilder setMaterial(Material material){
         itemStack.setType(material);
         return this;
     }
 
-    /// Set the Amount for the Item
+    /**
+     * Set the Amount of the ItemStack max 64
+     * depends on ItemStack size. Can be exploded by changing default
+     * Games Stack size Config
+     * @param amount Amount of the ItemStack size
+     * @return base Class
+     */
     public ItemBuilder setAmount(int amount){
         itemStack.setAmount(amount);
         return this;
     }
 
-    /// Add the ItemMeta to the Item
-    public ItemBuilder setItemMeta(){
+    /**
+     * Add new Line to the ItemLore
+     * @param line Content of the Line
+     * @return base Class
+     */
+    public ItemBuilder addLore(String line){
+        if(itemLore == null)
+            itemLore = new ArrayList<>();
+        itemLore.add(line);
+        return this;
+    }
+
+    /**
+     * Build ItemLore
+     * @return ItemLore
+     */
+    public List<String> buildLore(){
+        List<String> itemLore = this.itemLore;
+        this.itemLore.clear();
+        return itemLore;
+    }
+
+    /**
+     * Set the Lore for the Item.
+     * @param itemLore
+     * @return
+     */
+    public ItemBuilder setLore(List<String> itemLore){
+        itemMeta.setLore(itemLore);
+        return this;
+    }
+
+    /**
+     * Add the ItemMeta to the Item
+     * @param itemMeta ItemMeta
+     * @return base Class
+     */
+    public ItemBuilder setItemMeta(ItemMeta itemMeta){
+        itemStack.setItemMeta(itemMeta);
         return this;
     }
 
