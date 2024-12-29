@@ -3,7 +3,6 @@ package net.rainbowfurry.PhoenixAPI.builder;
 import org.bukkit.Location;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
-import org.bukkit.entity.Zombie;
 import org.bukkit.potion.PotionEffect;
 
 public class EntityBuilder {
@@ -57,6 +56,7 @@ public class EntityBuilder {
         Entity entity = location.getWorld().spawnEntity(location, this.entityType);
         entity.setCustomName(this.name);
         entity.setCustomNameVisible(this.visibility);
+        //this.entityType.getClass().cast(entity)
         //entity.setHealth(20);
     }
 
