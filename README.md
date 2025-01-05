@@ -1,5 +1,5 @@
 
-# Appname
+# Phoenix_MC_API
 ![GitHub contributors][contributors-badge]
 ![GitHub forks][forks-badge]
 ![GitHub stars][stars-badge]
@@ -60,11 +60,11 @@ Thanks very much to all of my sponsors.
 [contributors-url]: https://github.com/RainbowFurry/Phoenix_MC_API/graphs/contributors
 [forks-badge]: https://img.shields.io/github/forks/RainbowFurry/Phoenix_MC_API?style=for-the-badge
 [forks-url]: https://github.com/RainbowFurry/Phoenix_MC_API/network/members
-[stars-badge]: https://img.shields.io/github/stars/Phoenix_MC_API/Phoenix_TelegramBOT_API?style=for-the-badge
+[stars-badge]: https://img.shields.io/github/stars/RainbowFurry/Phoenix_MC_API?style=for-the-badge
 [stars-url]: https://github.com/RainbowFurry/Phoenix_MC_API/stargazers
-[issues-badge]: https://img.shields.io/github/issues/Phoenix_MC_API/Phoenix_TelegramBOT_API?style=for-the-badge
+[issues-badge]: https://img.shields.io/github/issues/RainbowFurry/Phoenix_MC_API?style=for-the-badge
 [issues-url]: https://github.com/RainbowFurry/Phoenix_MC_API/issues
-[release-badge]: https://img.shields.io/github/v/release/Phoenix_MC_API/Phoenix_TelegramBOT_API?style=for-the-badge
+[release-badge]: https://img.shields.io/github/v/release/RainbowFurry/Phoenix_MC_API?style=for-the-badge
 [release-url]: https://github.com/RainbowFurry/Phoenix_MC_API/releases
 [discord-id]: https://img.shields.io/discord/1013602813093359657?logo=discord&style=for-the-badge
 [discord-invite]: https://discord.gg/ugDvSw7cns
