@@ -15,6 +15,11 @@
             <id>phoenix-repo</id>
             <url>http://rainbowfurry.com:8080/snapshots</url>
         </repository>
+        <repository>
+           <id>github</id>
+           <name>Phoenix_MC_API by RainbowFurry</name>
+           <url>https://maven.pkg.github.com/RainbowFurry/Phoenix_TelegramBOT_API</url>
+        </repository>
     </distributionManagement>
 
     <properties>
